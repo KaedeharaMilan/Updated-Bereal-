@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131313;
+}
+
+main{
+    width: auto;
+    height: auto;
+}
+
+.navbar {
+    width: max-content;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.blogo {
+    font-family: "Bricolage Grotesque";
+    font-weight: 700;
+
+    width: 4rem;
+    color: #f1f1f1;
+
+    margin-right: -2.8rem;
+}
+
+.ereallogo {
+    font-family: "Bricolage Grotesque";
+    font-weight: 700;
+    font-style: italic;
+
+    width: max-content;
+    color: #f1f1f1;
+}
+
+.navmenu {
+    display: flex;
+    flex-direction: row;
+}
+.navmenu a {
+    margin-left: 3rem;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-family: "Bricolage Grotesque";
+    font-style: italic;
+}
+
+.loginregister {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.letsgetstarted {
+    display: flex;
+    font-family: "Bricolage Grotesque";
+    justify-content: center;
+    align-items: center;
+}
+
+
+.register {
+    display: flex;
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    color: #1f1f1f;
+    font-family: "Bricolage Grotesque";
+    text-decoration: none;
+    border: 0rem;
+    border-radius: 20rem;
+}
+.login {
+    display: flex;
+    width: 7rem;
+    height: 3rem;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+    font-family: "Bricolage Grotesque";
+    text-decoration: none;
+
+    border-color: #f1f1f1;
+    border: solid 3.5px;
+    border-radius: 20rem;
+}
+
+.getstartframe {
+    display: flex; 
+    flex-direction: column; 
+    
+    /* justify-content: center; */
+    align-items: center;
+
+    width: auto;
+    padding: 10rem;
+
+    gap: 3rem;
+}
+
+
+ul {
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    background-color: #E4E4E4;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    width: 20rem;
+
+    text-decoration: none;
+    list-style: none;
+
+    font-family: "Bricolage Grotesque";
+    
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2rem;
+}
+
+li input{
+    width: auto;
+    background: transparent;
+    border: transparent;
+
+    
+    font-family: "Bricolage Grotesque";
+    font-size: larger;
+    
+}
+
+ .submit {
+    display: flex;
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+    font-family: "Bricolage Grotesque";
+    text-decoration: none;
+    border: 0rem;
+    border-radius: 20rem;
+}
+
+form {
+    background-color: #f1f1f1;
+    width: max-content;
+    padding: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 1rem 3rem #3f3f3f;
+}
+
+.buttonsubmit {
+    display: flex;
+
+    width: auto;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+}

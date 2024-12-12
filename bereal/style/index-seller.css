@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131313;
+}
+
+main{
+    padding: 3rem
+}
+
+.navbar {
+    width: max-content;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.blogo {
+    font-family: "Bricolage Grotesque";
+    font-weight: 700;
+
+    width: 4rem;
+    color: #f1f1f1;
+
+    margin-right: -2.8rem;
+}
+
+.ereallogo {
+    font-family: "Bricolage Grotesque";
+    font-weight: 700;
+    font-style: italic;
+
+    width: max-content;
+    color: #f1f1f1;
+}
+
+.navmenu {
+    display: flex;
+    flex-direction: row;
+}
+.navmenu a {
+    margin-left: 3rem;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-family: "Bricolage Grotesque";
+    font-style: italic;
+}
+
+.menu_button {
+    display: flex;
+    flex-direction: row;
+}
+
+.logoutbtn{
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    color: #1f1f1f;
+    font-family: "Bricolage Grotesque";
+    text-decoration: none;
+    border: 0rem;
+    border-radius: 20rem;
+
+    font-weight: 700;
+}
